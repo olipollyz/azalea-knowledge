@@ -137,18 +137,46 @@ Fix: Close DayZ and the launcher, unsubscribe from the Azalea mod on Steam Works
 - If persistent: delete your character profile folder at `%UserProfile%\Documents\DayZ` (note: resets settings and keybinds)
 
 **Kicked for VPN / proxy when you are not using one**
-Some home and mobile internet providers get flagged by mistake. First turn off any VPN, proxy, or "private relay" feature and try again. If it still happens, open a ticket with your in-game name and roughly when it happened (with timezone). A volunteer checks these by hand; the bot cannot change it.
+Some home and mobile internet providers (and some IPv6 connections) get flagged by mistake. Try these first:
+1. Fully close browsers with a built-in VPN (for example Opera or Brave), and turn off iCloud Private Relay, Cloudflare WARP and "ping booster" apps
+2. Restart your router to get a new address, or try another network such as a phone hotspot
+3. Try joining again
+If it still happens, say in your ticket which country and internet provider you use and roughly when it happened (with timezone). A volunteer checks these by hand; the bot cannot change it.
+
+**Server not showing in the launcher**
+Use Direct Connect with the address in `#📻│server-info`, or join through the DZSA Launcher. The official launcher's server list is sometimes unreliable.
+
+**Stuck in a bunker, a hole, or under the map**
+If a bunker door seems stuck, wait until it has fully finished opening or closing, then try again. If you are really trapped, say in your ticket where you are (coordinates from [P]) and when you will be online. A volunteer can move you when one is available; there is no set time.
+
+**Got a fresh character after joining during a restart**
+This is a known DayZ bug (since 1.29), not an Azalea one: during a restart your character can stay loaded in the world for a moment and be killed there. Wait until the server is fully back up before joining.
+
+**Dropped items disappearing**
+Items left on the ground despawn after some hours, and hiding them does not stop the timer. Use a stash, barrel or container if you want to keep something.
 
 **Game crashed**
 Post the crash in Discord `#⚠️│crash-logs`, or use the crash form at azaleamap.com/report-crash. Include what you were doing and the time. DayZ keeps crash logs (.RPT and .mdmp files) in `%LocalAppData%\DayZ`; attach the newest ones.
 
 **Lost gear, died to a bug, or fell through the map**
-Open a ticket with the time (with timezone), where it happened (coordinates from [P]), and a screenshot or clip if you have one. Staff decide case by case; nothing is guaranteed.
+Open a ticket with the time (with timezone), where it happened (coordinates from [P]), and a screenshot or clip if you have one. Staff decide case by case; nothing is guaranteed. Losses caused by DayZ itself (connection rollbacks, items stuck in walls or the floor, vehicle deaths) usually cannot be restored.
 
 **Server offline or not showing in the browser**
 Check `#💓│server-status` and the BattleMetrics link in `#📻│server-info`. Restarts every 4 hours take a few minutes. If it is down outside a restart, open a ticket.
 
 If a technical issue is unresolved after trying the steps above, open a ticket in Discord `#🎟️│create-a-ticket`. Do not DM the developer or staff.
+
+---
+
+## Priority Queue (Ko-fi Tier 2)
+
+Priority Queue is a perk of the Azalea Supporter (Tier 2) membership on Ko-fi. It is not given out for crashes, streaming or events, and DayZ has no "rejoin after crash" queue skip. It cannot be switched on by hand; it activates automatically once all three steps are done:
+
+1. **Connect Discord on Ko-fi:** log in to Ko-fi with the email you paid with and use "Connect to Discord" so you get the Tier 2 supporter role in the Azalea Discord. Check that the role shows on your profile. If the web page does not work, try it from your phone.
+2. **Link your Steam ID:** use `/link-steam` (or the "Link your Steam ID" button) with your 17-digit Steam64 ID. If you linked before you paid, link again.
+3. **Wait and rejoin:** it syncs automatically within a few minutes (allow up to about 20).
+
+If it still does not skip the queue after 24 hours, open a ticket and say which of the three steps you have done and what the `/link-steam` reply said. Refunds and payment problems are handled by staff in a ticket.
 
 ---
 
@@ -221,7 +249,13 @@ Yes. Workshop subscription is free, the server is free to join.
 No. Azalea is an independent project, not affiliated with Bohemia Interactive.
 
 **Can I run my own Azalea server?**
-Not currently. The map runs only on the official servers until full public release. Repacking or redistributing the mod files is not allowed.
+Not currently. The map runs only on the official servers until full public release (1.0); it will be announced when that changes. Repacking or redistributing the mod files is not allowed. If you want a server closer to your region, post it in `#🐞│report-bugs-ideas` as an idea.
+
+**Where is the best loot / where do I find item X?**
+Finding things is part of the game, so staff do not give out loot locations. The Sonar and navigation sections above cover the mechanics.
+
+**When are the restarts?**
+Every 4 hours. Unplanned downtime and "back online" notices go in `#💓│server-status`.
 
 **When is full release?**
 Targeting 2027. Currently in early access with the EU server running 24/7.
