@@ -1,14 +1,14 @@
 # Azalea — Knowledge Base
 
-> This is the single source of truth for the Azalea Field Guide.
-> Edit any section and the bot picks up changes within ~1 hour.
-> PT4 date and any new announcements should be updated here first.
+> This is the single source of truth for the Azalea Field Guide and the Discord ticket assistant.
+> Edit any section and the bots pick up changes within ~1 hour.
+> Keep server status, update announcements, and access info current. Last reviewed: 2026-10-03.
 
 ---
 
 ## About Azalea
 
-Azalea is a custom modded DayZ map set on São Miguel island in the Azores — a volcanic Atlantic island in Portugal. It is an independent project built solo by Oliver (OlipollyZ), a Swedish developer working nights and weekends alongside a day job. The map is not affiliated with Bohemia Interactive.
+Azalea is a custom modded DayZ map set on São Miguel island in the Azores — a volcanic Atlantic island in Portugal. It is an independent project built by OlipollyZ, a solo developer working alongside a day job. The map is not affiliated with Bohemia Interactive.
 
 The map focuses on atmosphere, realism, and the natural beauty of the Azores. Every building, spawn point, vehicle, and loot tier has been placed deliberately over three years.
 
@@ -17,7 +17,6 @@ Key facts:
 - Map size: approximately 161 km² (9.6km × 16.8km)
 - Completely free to play — not a DLC
 - Dense POIs, short rotations, never truly safe
-- Max 127 players per server
 - 19,000+ Steam Workshop subscriptions to date
 - Inspiration: the Azores, LOST, Dark, Silo
 
@@ -27,54 +26,59 @@ Portuguese players have messaged saying they recognise their hometown in the des
 
 ## The Developer
 
-- **Name:** Oliver (OlipollyZ), based in Sweden
-- **Model:** Solo project, nights and weekends alongside a day job
-- **Goal:** Eventually transition to full-time development and stream the building process
+- **Name:** OlipollyZ
+- **Model:** Solo project alongside a day job, helped by volunteer staff on Discord
 - **Support:** https://ko-fi.com/olipollyz
-- **Do not DM the developer directly** — use Discord channels for support and bug reports.
+- **Do not DM the developer or staff directly** — open a ticket in Discord `#🎟️│create-a-ticket` for support.
 
 ---
 
-## Access & Playtesting
+## Access & Early Access
 
-Azalea is released in periodic public playtest phases. It is **not** on the Steam Workshop continuously — it only appears there during active playtests.
+Azalea is in early access. The official server runs 24/7 and is open to the public. The map is updated regularly; the current server version is shown in Discord `#📻│server-info`, and the next update's ETA is in `#⏳│next-update`.
 
-Playtest history:
-- Playtest 1: September 2023
-- Playtest 2: December 2023
-- Playtest 3: October 2024
-- Playtest 4: TBA — join Discord to be notified when it opens
+The mod is listed on Steam Workshop. You can subscribe and join the server at any time.
 
-During playtests, the map runs exclusively on the official developer servers. You cannot run your own Azalea server until full release — this keeps the experience consistent and prevents unfinished builds from circulating. Downloading, repacking, or modifying the mod is not allowed.
+You cannot run your own Azalea server until full release — this keeps the experience consistent and prevents unfinished builds from circulating. Downloading, repacking, or modifying the mod is not allowed.
 
 Full release target: 2027.
 
 ---
 
-## How to Join During an Active Playtest
+## Servers
+
+- **AZALEA EU** — open now. 1PP, no bases, adventure style. 60 player slots.
+- **AZALEA US** — coming soon, launching alongside Update 0.4. Not joinable yet.
+- There is no PvE server and no third-person server.
+- Connection details, live status and the BattleMetrics link are always in Discord `#📻│server-info`. Downtime and "back online" notices go in `#💓│server-status`.
+
+---
+
+## How to Join
 
 **Easiest method:** Search for "Azalea" in the Community tab of the DayZ Launcher. Click Join and select "Setup DLCs and Mods and Join" for automatic mod sync.
 
 **Manual steps:**
-1. Subscribe to the Azalea mod on Steam Workshop (only listed during active playtests)
+1. Subscribe to the Azalea mod on Steam Workshop
 2. Launch DayZ
 3. Open the Community Server Browser
-4. Search "Azalea" and connect to the official server
+4. Search "Azalea" and connect to AZALEA EU
 5. The mod downloads and loads automatically on connect
 
-**Direct connection (when active):**
-- IP: `45.151.81.211` — Port: `2502`
-- Note: server IP may change between playtests. Check Discord for the current address.
+**Direct connection (AZALEA EU):**
+- Address: `45.151.81.211:2502`
+- If it ever changes, `#📻│server-info` in Discord has the current address.
 
-Free to play. No whitelist required for public playtests.
+Free to play. No whitelist required.
 
 ---
 
 ## Server Info
 
 - **Restarts:** Every 4 hours
+- **Bases:** None. Building and base storage are not part of Azalea's style; it is an adventure server.
 - **Wipes:** Rare — only during major DayZ engine updates or critical terrain overhauls that would cause item glitches. Map persistence is currently stable.
-- **Max players:** 127
+- **Max players:** 60 on AZALEA EU
 
 ---
 
@@ -132,54 +136,55 @@ Fix: Close DayZ and the launcher, unsubscribe from the Azalea mod on Steam Works
 - First attempt: simply re-join — the second attempt often succeeds once data is cached
 - If persistent: delete your character profile folder at `%UserProfile%\Documents\DayZ` (note: resets settings and keybinds)
 
-**Bunker door blocked (collision bug)**
-Known issue. Report the location with coordinates in the Discord bug channel.
+**Kicked for VPN / proxy when you are not using one**
+Some home and mobile internet providers get flagged by mistake. First turn off any VPN, proxy, or "private relay" feature and try again. If it still happens, open a ticket with your in-game name and roughly when it happened (with timezone). A volunteer checks these by hand; the bot cannot change it.
 
-If a technical issue is unresolved after trying the steps above, open a support thread in Discord. Do not DM the developer.
+**Game crashed**
+Post the crash in Discord `#⚠️│crash-logs`, or use the crash form at azaleamap.com/report-crash. Include what you were doing and the time. DayZ keeps crash logs (.RPT and .mdmp files) in `%LocalAppData%\DayZ`; attach the newest ones.
+
+**Lost gear, died to a bug, or fell through the map**
+Open a ticket with the time (with timezone), where it happened (coordinates from [P]), and a screenshot or clip if you have one. Staff decide case by case; nothing is guaranteed.
+
+**Server offline or not showing in the browser**
+Check `#💓│server-status` and the BattleMetrics link in `#📻│server-info`. Restarts every 4 hours take a few minutes. If it is down outside a restart, open a ticket.
+
+If a technical issue is unresolved after trying the steps above, open a ticket in Discord `#🎟️│create-a-ticket`. Do not DM the developer or staff.
 
 ---
 
-## Bug Reporting
+## Bug Reports & Suggestions
 
-Every map-related bug report **must** include a screenshot with coordinates.
+The source of truth for bugs and suggestions is **azaleamap.com/support**. Every report there gets a ref like R-123 with a status (open, fixed, and so on) and the version it was fixed in.
 
-- Press **[P]** in-game to toggle the coordinate overlay
-- Include: what happened, where it happened (coordinates), and a screenshot
+**How to report:**
+- Go to **azaleamap.com/support** — no Discord needed
+- Or use the buttons in Discord `#🐞│report-bugs-ideas`; they post straight to the same list
+- Search the list first: if your bug is already there, vote on it instead of posting a new one
 
-**How to report — no Discord needed:**
-- The **Field Guide chat** on azaleamap.com can open the bug report form directly — just tell it you found a bug and click the button it shows you
-- Or visit azaleamap.com and use the **BetaHub widget** to submit without any account or Discord
-- If the bug is game-breaking or urgent, post in Discord `#🐞│report-bugs` for a faster human response
+**What to include:**
+- What happened, and how often (every time, sometimes, once)
+- Where: press **[P]** in-game to show coordinates, and take a screenshot
+- Steps to reproduce, if you know them
 
-**Bug report template (copy-paste into either):**
-```
-Bug: [what happened]
-Location: [coordinates from pressing P]
-Repro: [steps to reproduce, if known]
-Screenshot: [attached]
-```
+Use a ticket instead of a bug report for anything about your own account, a ban, another player, or a server outage.
 
 ---
 
 ## Roadmap
 
 **Currently in progress:**
-- Performance optimisation — improving FPS and reducing stuttering across all hardware
-- Loot balance improvements — tuning spawn rates based on community feedback
-- Bug fixes from playtesting
-
-**Planned next:**
-- **Monte Palace POI** — Massive abandoned hotel complex inspired by the real Monte Palace on São Miguel. High risk, unique loot, built from scratch.
-- **Dynamic Weather Events** — Tropical storms, rolling Atlantic fog, heavy rain affecting movement and visibility.
+- **Monte Palace Hotel** — a huge abandoned hotel inspired by the real Monte Palace on São Miguel, built from scratch
+- Update 0.4, which also opens the AZALEA US server
+- Performance and loot balance tuning from player feedback
+- Bug fixes from the azaleamap.com/support list
 
 **Under consideration (not committed):**
+- Dynamic weather events — storms, rolling Atlantic fog, heavy rain
 - Boats and naval travel between coastal areas
 - Wildlife expansion — tropical birds, boars, island fauna
 - Underground cave system
-- Trader NPCs at safe trading posts
-- Day/night cycle adjustments for longer tactical nights
 
-**Custom Buildings, Music & Performance** is an ongoing goal across all updates.
+**Custom Buildings, Music & Performance** is an ongoing goal across all updates. Dates are announced in `#⏳│next-update` and `#📣│announcements`, never in tickets.
 
 ---
 
@@ -188,7 +193,9 @@ Screenshot: [attached]
 - **Discord:** https://discord.gg/azalea-dayz-map-951758529201569842
 - **Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=2977981023
 - **Website:** https://azaleamap.com
-- **Ko-fi (support Oliver):** https://ko-fi.com/olipollyz
+- **Bugs & suggestions:** https://azaleamap.com/support
+- **Changelog:** https://azaleamap.com/changelog
+- **Ko-fi (support the project):** https://ko-fi.com/olipollyz
 - **Twitch (dev streams):** https://www.twitch.tv/olipollyz
 
 ---
@@ -211,25 +218,31 @@ AutistixLIVE, Basshi, Bitteroot Dev (Matty), British, ChimneyLIVE, Co_Co, Danceo
 Yes. Workshop subscription is free, the server is free to join.
 
 **Is this an official DayZ DLC?**
-No. Azalea is an independent project by one person, not affiliated with Bohemia Interactive.
+No. Azalea is an independent project, not affiliated with Bohemia Interactive.
 
 **Can I run my own Azalea server?**
-Not currently. The map runs exclusively on the official dev server until full public release. Repacking or redistributing the mod files is not allowed.
+Not currently. The map runs only on the official servers until full public release. Repacking or redistributing the mod files is not allowed.
 
 **When is full release?**
-Targeting 2027. Currently in periodic playtest phases.
+Targeting 2027. Currently in early access with the EU server running 24/7.
 
-**How do I get notified about Playtest 4?**
-Join the Discord — all announcements go there first.
+**When does the US server open?**
+Alongside Update 0.4. Watch `#📻│server-info` and `#⏳│next-update`.
+
+**Can I build a base?**
+No. Azalea servers have no bases; it is an adventure server.
+
+**How do I get notified about major updates?**
+Join the Discord — announcements go to `#📣│announcements` first. You can also leave your email at azaleamap.com.
 
 **How can I support the project?**
-Ko-fi at https://ko-fi.com/olipollyz — helps cover hosting and hardware costs.
+Ko-fi at https://ko-fi.com/olipollyz — helps cover hosting and hardware costs. Questions about Ko-fi perks or payments go in a ticket; staff handle them.
 
-**I found a bug / want to report something.**
-Press [P] in-game for coordinates, take a screenshot. You can submit via the BetaHub widget on azaleamap.com (no Discord needed) or post in `#🐞│report-bugs` on Discord.
+**I found a bug / have an idea.**
+Use azaleamap.com/support or the buttons in `#🐞│report-bugs-ideas`. Press [P] in-game for coordinates and add a screenshot.
 
 **Is there wildlife on the map?**
-Yes — crocodiles have appeared in playtests. More wildlife is under consideration for future updates.
+Yes — crocodiles are in the map. More wildlife is under consideration for future updates.
 
 **Why is my compass wrong?**
 Azalea uses custom coordinates. Use the sun for navigation, especially in the far south.
