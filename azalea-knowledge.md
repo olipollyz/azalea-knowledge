@@ -159,7 +159,7 @@ Items left on the ground despawn after some hours, and hiding them does not stop
 Post the crash in Discord `#⚠️│crash-logs`, or use the crash form at azaleamap.com/report-crash. Include what you were doing and the time. DayZ keeps crash logs (.RPT and .mdmp files) in `%LocalAppData%\DayZ`; attach the newest ones.
 
 **Lost gear, died to a bug, or fell through the map**
-Open a ticket with the time (with timezone), where it happened (coordinates from [P]), and a screenshot or clip if you have one. Staff decide case by case; nothing is guaranteed. Losses caused by DayZ itself (connection rollbacks, items stuck in walls or the floor, vehicle deaths) usually cannot be restored.
+Open a ticket with the time (with timezone), where it happened (coordinates from [P]), and a screenshot or clip if you have one. Gear lost to DayZ itself (disconnects and rollbacks, items stuck in walls or the floor, vehicle physics, normal deaths) is not restored. Gear lost to a bug in Azalea's own content can be restored if you open a ticket within 48 hours and the server logs confirm it; an admin decides, and nothing is promised before the logs are checked.
 
 **Server offline or not showing in the browser**
 Check `#💓│server-status` and the BattleMetrics link in `#📻│server-info`. Restarts every 4 hours take a few minutes. If it is down outside a restart, open a ticket.
