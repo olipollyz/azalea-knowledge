@@ -2,7 +2,7 @@
 
 > This is the single source of truth for the Azalea Field Guide and the Discord ticket assistant.
 > Edit any section and the bots pick up changes within ~1 hour.
-> Keep server status, update announcements, and access info current. Last reviewed: 2026-10-03.
+> Keep server status, update announcements, and access info current. Last reviewed: 2026-10-08.
 
 ---
 
@@ -113,6 +113,56 @@ The Sonar is a unique Azalea mechanic. Understanding it is essential for surviva
 ## Gameplay — Navigation
 
 Azalea uses custom technical coordinates. Compasses and GPS may feel "off", particularly in the extreme south of the map. Use the **sun** as your primary navigation anchor if your compass seems wrong.
+
+---
+
+## Gameplay — Volcanic Eruptions (since 0.4.0)
+
+The volcano erupts roughly every 3 to 4 hours, whatever the player count. One eruption lasts about an hour, in stages: tremors, escalation, eruption, billowing ash, ashfall, peak, waning and clearing.
+
+**Warnings:**
+- A switched-on handheld radio with a battery gets an emergency broadcast at each main stage, repeated every few minutes.
+- Town speakers (police and fire stations, sonar pillars, Cedro's control tower and hospital) sound a foghorn from the escalation stage on: three fast blasts once it erupts, one blast for the all-clear.
+
+**Surviving it:**
+- Ashfall hurts outdoors and is worst at the peak and close to the volcano. A gas mask or respirator cuts it the most, a cloth mask about half; being inside a solid building or a pitched Emergency Heat Shelter protects best. Moving far from the volcano helps too.
+- The crater is deadly while lava is active. Approaching it builds heat with a warning first; gas masks do not help against heat, only a building or a heat shelter does.
+- At the peak a volcanic surge can run downhill on the volcano's flank. Wind gusts and volcanic lightning also come with the peak.
+- The eruption uses flashing lights and rapid full-screen effects (photosensitivity warning).
+
+---
+
+## Gameplay — Helicopter Event (since 0.4.0)
+
+A helicopter can be called to the volcano's summit helipad, but only while an eruption is in its **peak or waning** stage. Listen for a distant helicopter searching overhead: that means the window is open.
+
+How it works:
+1. Be on the mountain near the summit during the peak or waning stage.
+2. Fire a **flare gun**. Each player can call once per eruption, and not while a helicopter is already out.
+3. Mark the helipad with a **burning road flare** so it can land. Without one it hovers briefly and leaves.
+4. When it lands it leaves supplies on the pad (including glider kits) and takes off again after a minute or two. It does not take players away.
+
+If the flare is fired at the wrong moment, the game says why (no eruption, ash too thick in the early stages, too late after waning, or too far from the summit). Players can find a flare gun, flares and road flares together in a signal kit case.
+
+---
+
+## Gameplay — Hang Glider (since 0.4.0, experimental)
+
+- The **Sondagem Glider Kit** is worn on the back. Use the "Ready Hang Glider" action to unfold it ("Pack Hang Glider" folds it again).
+- Launch by running off an edge or jumping from a slope, with open sky above you. Landing happens automatically near the ground.
+- Controls: forward to dive and speed up, back to slow down and flare, left and right to bank. **G** drops a grenade from the payload slot. Keys can be changed under "Azalea - Hang Glider" in the controls menu.
+- The kit has slots for a smoke trail, a grenade payload, instruments, a chemlight, a walkie-talkie and a backpack.
+- A **Variometer** in the instrument slot beeps higher the stronger the lift; rising air over the crater lets you climb.
+- Changing what is in your hands during flight ends the flight.
+- Known rough edges: a brief flicker when landing in first person, the camera can clip into steep cliffs, and other players may see your landing glider look wrong (cosmetic only).
+
+**Glider wreck camps:** crashed glider camps appear around the island and move over time. While the injured pilot is alive, the camp fires a distress flare every 8 to 15 minutes, visible from far away, and a nearby radio picks up an SOS. Each camp has a glider kit. Once the pilot is dead, the flares stop.
+
+---
+
+## Gameplay — The Signal
+
+Switched-on handheld radios with a battery occasionally pick up a strange, quiet transmission. It is part of Azalea's story; no action is required and staff do not explain it. Keep a radio on and charged anyway: the same radio carries the eruption warnings.
 
 ---
 
