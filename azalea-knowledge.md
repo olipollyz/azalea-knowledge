@@ -191,6 +191,7 @@ Some home and mobile internet providers (and some IPv6 connections) get flagged 
 1. Fully close browsers with a built-in VPN (for example Opera or Brave), and turn off iCloud Private Relay, Cloudflare WARP and "ping booster" apps
 2. Restart your router to get a new address, or try another network such as a phone hotspot
 3. Try joining again
+Rare fix: if your provider gives you a shared or pooled address (common on mobile and some home connections), ask them for a private, non-shared IP. One player's kicks stopped once their provider moved them off a pool address. It does not work for everyone and not every provider offers it.
 If it still happens, say in your ticket which country and internet provider you use and roughly when it happened (with timezone). A volunteer checks these by hand; the bot cannot change it.
 
 **Server not showing in the launcher**
