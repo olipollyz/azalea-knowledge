@@ -93,6 +93,7 @@ Plague Night is a vampire survival server by OlipollyZ, run by the Azalea team. 
 - In the server browser, search for **Vampire Plague Night** (full name: "Vampire Plague Night | NAMALSK Vanilla+ | Azaleamap.com/Discord").
 - Direct connect: `64.31.2.18:2302`
 - Join through the DayZ Launcher or DZSA Launcher with "Setup DLCs and Mods and Join" so the Namalsk map and the Plague Night mod download automatically. It uses different mods from AZALEA EU.
+- **Restarts:** every 4 hours, like AZALEA EU.
 
 **How it plays (short):**
 - A few players start the night as vampires; everyone else is human. Vampires spread by biting.
@@ -341,7 +342,7 @@ Not currently. The map runs only on the official servers until full public relea
 Finding things is part of the game, so staff do not give out loot locations. The Sonar and navigation sections above cover the mechanics.
 
 **When are the restarts?**
-On AZALEA EU, every 4 hours. Unplanned downtime and "back online" notices go in `#💓│server-status`.
+Every 4 hours on both AZALEA EU and Plague Night. Unplanned downtime and "back online" notices go in `#💓│server-status`.
 
 **When is full release?**
 Targeting 2027. Currently in early access with the EU server running 24/7.
