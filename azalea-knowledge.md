@@ -112,7 +112,11 @@ Plague Night is a vampire survival server by OlipollyZ, run by the Azalea team. 
 Some players get through the queue and then DayZ closes, or they get kicked, at the login countdown. It is most likely a DayZ 1.30 bug (possibly Bohemia DZG-1199), not confirmed yet. There is no fix or date. For now this is about Plague Night only: it is the server with a queue, and the team's extra queue logging runs there. AZALEA EU players with a crash use the normal crash steps in Troubleshooting. Your logs help the team understand it:
 
 1. **Note what happened:** the time with your timezone, your queue position, and whether DayZ closed by itself or showed a kick message.
-2. **Save your logs before you try again** (a new attempt can overwrite them). Open `%LOCALAPPDATA%\DayZ` and copy the files from that attempt: the `script_*.log`, the `.RPT`, and any crash or error log or `.mdmp` file from the same time.
+2. **Save your logs before you try again** (a new attempt can overwrite them):
+   - Press the **Windows key + R** together. A small "Run" box opens.
+   - Type `%LOCALAPPDATA%\DayZ` and press **Enter**. Your DayZ log folder opens.
+   - Click the **Date modified** column so the newest files are at the top.
+   - Copy the newest files from the time it happened: the one ending in `.RPT`, the ones starting with `script_`, and any file ending in `.mdmp` or starting with `crash_`. Paste them onto your desktop so a new attempt can't replace them.
 3. **Open a private ticket** in `#🎟️│create-a-ticket` and attach those files, plus a screenshot of the kick message if there was one. If you are already in a ticket, attach them there.
 4. **Then retry:** close DayZ fully, let Steam and the Workshop finish updating, and launch again.
 
@@ -246,7 +250,7 @@ This is a known DayZ bug (since 1.29), not an Azalea one: during a restart your 
 Items left on the ground despawn after some hours, and hiding them does not stop the timer. Use a stash, barrel or container if you want to keep something.
 
 **Game crashed**
-Post the crash in Discord `#⚠️│crash-logs`, or use the crash form at azaleamap.com/report-crash. Include what you were doing and the time. DayZ keeps crash logs (.RPT and .mdmp files) in `%LocalAppData%\DayZ`; attach the newest ones.
+Post the crash in Discord `#⚠️│crash-logs`, or use the crash form at azaleamap.com/report-crash. Include what you were doing and the time. DayZ keeps crash logs (.RPT and .mdmp files) in `%LocalAppData%\DayZ`; attach the newest ones. To open that folder: press **Windows key + R**, type `%LOCALAPPDATA%\DayZ`, press **Enter**, then sort by **Date modified** so the newest files are on top.
 
 **Lost gear, died to a bug, or fell through the map**
 Open a ticket with the time (with timezone), where it happened (coordinates from [P]), and a screenshot or clip if you have one. Gear lost to DayZ itself (disconnects and rollbacks, items stuck in walls or the floor, vehicle physics, normal deaths) is not restored. Gear lost to a bug in Azalea's own content can be restored if you open a ticket within 48 hours and the server logs confirm it; an admin decides, and nothing is promised before the logs are checked.
