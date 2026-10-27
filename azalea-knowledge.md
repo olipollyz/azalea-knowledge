@@ -109,7 +109,7 @@ Plague Night is a vampire survival server by OlipollyZ, run by the Azalea team. 
 - **Crashes:** post them in `#⚠️│crash-logs` or azaleamap.com/report-crash, and say it was Plague Night. For the queue crash below, use a ticket instead.
 
 **Known issue: DayZ closes or kicks you right after the queue (Plague Night)**
-Some players get through the queue and then DayZ closes, or they get kicked, at the login countdown. It is most likely a DayZ 1.30 bug (possibly Bohemia DZG-1199), not confirmed yet. There is no fix or date. Your logs help the team understand it:
+Some players get through the queue and then DayZ closes, or they get kicked, at the login countdown. It is most likely a DayZ 1.30 bug (possibly Bohemia DZG-1199), not confirmed yet. There is no fix or date. For now this is about Plague Night only: it is the server with a queue, and the team's extra queue logging runs there. AZALEA EU players with a crash use the normal crash steps in Troubleshooting. Your logs help the team understand it:
 
 1. **Note what happened:** the time with your timezone, your queue position, and whether DayZ closed by itself or showed a kick message.
 2. **Save your logs before you try again** (a new attempt can overwrite them). Open `%LOCALAPPDATA%\DayZ` and copy the files from that attempt: the `script_*.log`, the `.RPT`, and any crash or error log or `.mdmp` file from the same time.
