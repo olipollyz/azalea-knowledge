@@ -106,8 +106,17 @@ Plague Night is a vampire survival server by OlipollyZ, run by the Azalea team. 
 - **No Priority Queue.** Namalsk may not be monetised, so Ko-fi perks (including Priority Queue) apply only to AZALEA EU.
 - **Lost gear:** the same rule as Azalea (see Troubleshooting). Say in the ticket that it happened on Plague Night.
 - **VPN kicks:** the same VPN check and steps as AZALEA EU.
-- **Crashes:** post them in `#⚠️│crash-logs` or azaleamap.com/report-crash, and say it was Plague Night.
-- **Known issue:** some players crash or get kicked right after the queue or at the login countdown. The team is looking into it; it may be a DayZ bug (Bohemia DZG-1199), not confirmed yet. There is no fix or date to give.
+- **Crashes:** post them in `#⚠️│crash-logs` or azaleamap.com/report-crash, and say it was Plague Night. For the queue crash below, use a ticket instead.
+
+**Known issue: DayZ closes or kicks you right after the queue (Plague Night)**
+Some players get through the queue and then DayZ closes, or they get kicked, at the login countdown. It is most likely a DayZ 1.30 bug (possibly Bohemia DZG-1199), not confirmed yet. There is no fix or date. Your logs help the team understand it:
+
+1. **Note what happened:** the time with your timezone, your queue position, and whether DayZ closed by itself or showed a kick message.
+2. **Save your logs before you try again** (a new attempt can overwrite them). Open `%LOCALAPPDATA%\DayZ` and copy the files from that attempt: the `script_*.log`, the `.RPT`, and any crash or error log or `.mdmp` file from the same time.
+3. **Open a private ticket** in `#🎟️│create-a-ticket` and attach those files, plus a screenshot of the kick message if there was one. If you are already in a ticket, attach them there.
+4. **Then retry:** close DayZ fully, let Steam and the Workshop finish updating, and launch again.
+
+If the message says **"Server has a more recent version"**, that is a different problem: your Plague Night mod is out of date. Update it (let the Workshop download finish) and rejoin.
 - Feedback on loot, performance and vampire gameplay goes in the Plague Night channels listed in `#🦇│plague-night-info`. Clips and screenshots help.
 
 ---
