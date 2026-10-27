@@ -2,7 +2,7 @@
 
 > This is the single source of truth for the Azalea Field Guide and the Discord ticket assistant.
 > Edit any section and the bots pick up changes within ~1 hour.
-> Keep server status, update announcements, and access info current. Last reviewed: 2026-10-08.
+> Keep server status, update announcements, and access info current. Last reviewed: 2026-10-27.
 
 ---
 
@@ -35,7 +35,7 @@ Portuguese players have messaged saying they recognise their hometown in the des
 
 ## Access & Early Access
 
-Azalea is in early access. The official server runs 24/7 and is open to the public. The map is updated regularly; the current server version is shown in Discord `#📻│server-info`, and the next update's ETA is in `#⏳│next-update`.
+Azalea is in early access. The official AZALEA EU server runs 24/7 and is open to the public. The map is updated regularly; the current server version is shown in Discord `#📻│server-info`, and the next update's ETA is in `#⏳│next-update`.
 
 The mod is listed on Steam Workshop. You can subscribe and join the server at any time.
 
@@ -47,10 +47,13 @@ Full release target: 2027.
 
 ## Servers
 
-- **AZALEA EU** — open now. 1PP, no bases, adventure style. 60 player slots.
-- **AZALEA US** — coming soon, launching alongside Update 0.4. Not joinable yet.
+The Azalea team runs two official servers, and tickets about either one belong in this Discord:
+
+- **AZALEA EU** — the Azalea map. Open now. 1PP, no bases, adventure style. 60 player slots. Azalea runs on EU only; there is no Azalea US server.
+- **PLAGUE NIGHT** (Vampire Plague Night) — a vampire survival server on the **Namalsk** map, made by OlipollyZ (the creator of Azalea). It is a separate game mode, not part of the Azalea map. See the Plague Night section below.
 - There is no PvE server and no third-person server.
-- Connection details, live status and the BattleMetrics link are always in Discord `#📻│server-info`. Downtime and "back online" notices go in `#💓│server-status`.
+- Any other server (for example other Namalsk or community servers) is not run by the Azalea team; problems there go to that server's own admins.
+- AZALEA EU connection details, live status and the BattleMetrics link are in Discord `#📻│server-info`. Plague Night details are in `#🦇│plague-night-info` and the Plague Night launch post in `#📣│announcements`. Downtime and "back online" notices go in `#💓│server-status`.
 
 ---
 
@@ -73,12 +76,38 @@ Free to play. No whitelist required.
 
 ---
 
-## Server Info
+## Server Info (AZALEA EU)
 
 - **Restarts:** Every 4 hours
 - **Bases:** None. Building and base storage are not part of Azalea's style; it is an adventure server.
 - **Wipes:** Rare — only during major DayZ engine updates or critical terrain overhauls that would cause item glitches. Map persistence is currently stable.
 - **Max players:** 60 on AZALEA EU
+
+---
+
+## Plague Night (vampire server on Namalsk)
+
+Plague Night is a vampire survival server by OlipollyZ, run by the Azalea team. It opened on Saturday 24 October 2026 as an **early public playtest**: expect bugs, rough edges and balance changes.
+
+**How to join:**
+- In the server browser, search for **Vampire Plague Night** (full name: "Vampire Plague Night | NAMALSK Vanilla+ | Azaleamap.com/Discord").
+- Direct connect: `64.31.2.18:2302`
+- Join through the DayZ Launcher or DZSA Launcher with "Setup DLCs and Mods and Join" so the Namalsk map and the Plague Night mod download automatically. It uses different mods from AZALEA EU.
+
+**How it plays (short):**
+- A few players start the night as vampires; everyone else is human. Vampires spread by biting.
+- Vampires hunt at night and hide from the sun. Fire and sunlight burn them; fists and blades do nothing, a sharpened stake does.
+- A bitten human can be cured with a blood transfusion while still sick; left untreated they turn.
+- Vampires have special abilities on the **J** key.
+- Full rules are in `#🦇│plague-night-info`. Staff do not give out loot or crypt locations.
+
+**Support rules on Plague Night:**
+- **No Priority Queue.** Namalsk may not be monetised, so Ko-fi perks (including Priority Queue) apply only to AZALEA EU.
+- **Lost gear:** the same rule as Azalea (see Troubleshooting). Say in the ticket that it happened on Plague Night.
+- **VPN kicks:** the same VPN check and steps as AZALEA EU.
+- **Crashes:** post them in `#⚠️│crash-logs` or azaleamap.com/report-crash, and say it was Plague Night.
+- **Known issue:** some players crash or get kicked right after the queue or at the login countdown. The team is looking into it; it may be a DayZ bug (Bohemia DZG-1199), not confirmed yet. There is no fix or date to give.
+- Feedback on loot, performance and vampire gameplay goes in the Plague Night channels listed in `#🦇│plague-night-info`. Clips and screenshots help.
 
 ---
 
@@ -212,6 +241,12 @@ Post the crash in Discord `#⚠️│crash-logs`, or use the crash form at azale
 **Lost gear, died to a bug, or fell through the map**
 Open a ticket with the time (with timezone), where it happened (coordinates from [P]), and a screenshot or clip if you have one. Gear lost to DayZ itself (disconnects and rollbacks, items stuck in walls or the floor, vehicle physics, normal deaths) is not restored. Gear lost to a bug in Azalea's own content can be restored if you open a ticket within 48 hours and the server logs confirm it; an admin decides, and nothing is promised before the logs are checked.
 
+**Another player combat-logged or keeps killing new spawns**
+Treat it as a player report: post a clip and the time it happened (with timezone) in your ticket. The Azalea team checks the server logs. Staff do not discuss other players or outcomes in tickets.
+
+**Crash or kick on a server that is not AZALEA EU or Plague Night**
+The Azalea team only runs AZALEA EU and Plague Night. Check the server name in your launcher; for any other server, contact that server's own admins.
+
 **Server offline or not showing in the browser**
 Check `#💓│server-status` and the BattleMetrics link in `#📻│server-info`. Restarts every 4 hours take a few minutes. If it is down outside a restart, open a ticket.
 
@@ -221,7 +256,7 @@ If a technical issue is unresolved after trying the steps above, open a ticket i
 
 ## Priority Queue (Ko-fi Tier 2)
 
-Priority Queue is a perk of the Azalea Supporter (Tier 2) membership on Ko-fi. It is not given out for crashes, streaming or events, and DayZ has no "rejoin after crash" queue skip. It cannot be switched on by hand; it activates automatically once all three steps are done:
+Priority Queue is a perk of the Azalea Supporter (Tier 2) membership on Ko-fi and works on AZALEA EU only (not on Plague Night). It is not given out for crashes, streaming or events, and DayZ has no "rejoin after crash" queue skip. It cannot be switched on by hand; it activates automatically once all three steps are done:
 
 1. **Connect Discord on Ko-fi:** log in to Ko-fi with the email you paid with and use "Connect to Discord" so you get the Tier 2 supporter role in the Azalea Discord. Check that the role shows on your profile. If the web page does not work, try it from your phone.
 2. **Link your Steam ID:** use `/link-steam` (or the "Link your Steam ID" button) with your 17-digit Steam64 ID. If you linked before you paid, link again.
@@ -253,7 +288,7 @@ Use a ticket instead of a bug report for anything about your own account, a ban,
 
 **Currently in progress:**
 - **Monte Palace Hotel** — a huge abandoned hotel inspired by the real Monte Palace on São Miguel, built from scratch
-- Update 0.4, which also opens the AZALEA US server
+- Update 0.4
 - Performance and loot balance tuning from player feedback
 - Bug fixes from the azaleamap.com/support list
 
@@ -306,13 +341,13 @@ Not currently. The map runs only on the official servers until full public relea
 Finding things is part of the game, so staff do not give out loot locations. The Sonar and navigation sections above cover the mechanics.
 
 **When are the restarts?**
-Every 4 hours. Unplanned downtime and "back online" notices go in `#💓│server-status`.
+On AZALEA EU, every 4 hours. Unplanned downtime and "back online" notices go in `#💓│server-status`.
 
 **When is full release?**
 Targeting 2027. Currently in early access with the EU server running 24/7.
 
-**When does the US server open?**
-Alongside Update 0.4. Watch `#📻│server-info` and `#⏳│next-update`.
+**Is there an Azalea US server?**
+No. Azalea runs on AZALEA EU only. The US machine now runs Plague Night, the vampire server on Namalsk (see the Plague Night section).
 
 **Can I build a base?**
 No. Azalea servers have no bases; it is an adventure server.
