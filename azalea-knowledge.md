@@ -70,7 +70,8 @@ The Azalea team runs two official servers, and tickets about either one belong i
 
 **Direct connection (AZALEA EU):**
 - Address: `45.151.81.211:2502`
-- If it ever changes, `#📻│server-info` in Discord has the current address.
+- One-click join with the DZSA Launcher: https://join.dayzsalauncher.com/45.151.81.211:2503
+- If it ever changes, `#📻│server-info` in Discord has the current address and join links.
 
 Free to play. No whitelist required.
 
@@ -91,7 +92,10 @@ Plague Night is a vampire survival server by OlipollyZ, run by the Azalea team. 
 
 **How to join:**
 - In the server browser, search for **Vampire Plague Night** (full name: "Vampire Plague Night | NAMALSK Vanilla+ | Azaleamap.com/Discord").
-- Direct connect: `64.31.2.18:2302`
+- There are two Plague Night servers (separate characters on each):
+  - **Plague Night #1 (US):** direct connect `40.27.45.16:2302`, one-click DZSA join https://join.dayzsalauncher.com/40.27.45.16:2303 (moved to this new address on 29 October 2026; the old address no longer works).
+  - **Plague Night #2 (EU, temporary, 40 slots):** direct connect `45.141.224.141:2502`, one-click DZSA join https://join.dayzsalauncher.com/45.141.224.141:2503
+- `#📻│server-info` in Discord always has the current addresses and a Quick Join message with all join links.
 - Join through the DayZ Launcher or DZSA Launcher with "Setup DLCs and Mods and Join" so the Namalsk map and the Plague Night mod download automatically. It uses different mods from AZALEA EU.
 - **Restarts:** every 4 hours, like AZALEA EU.
 
