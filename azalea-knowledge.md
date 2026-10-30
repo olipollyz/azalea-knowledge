@@ -125,6 +125,9 @@ Some players get through the queue and then DayZ closes, or they get kicked, at 
 4. **Then retry:** close DayZ fully, let Steam and the Workshop finish updating, and launch again.
 
 If the message says **"Server has a more recent version"**, that is a different problem: your Plague Night mod is out of date. Update it (let the Workshop download finish) and rejoin.
+
+**Why the Plague Night queue is capped at 10**
+The queue holds 10 players. If it is full, you get "queue full": wait a minute and try again. The cap is on purpose: the DayZ queue bug above mostly hits players who wait more than about 12 minutes, so a longer queue would mean waiting 15–20 minutes and then getting kicked. A short queue gives you a quick "full" instead. There is no priority queue on Plague Night.
 - Feedback on loot, performance and vampire gameplay goes in the Plague Night channels listed in `#🦇│plague-night-info`. Clips and screenshots help.
 
 ---
